@@ -38,9 +38,9 @@ class XClassComp extends React.Component {
         <h1>  Counter App </h1>
         <div className="count-display">Count: {this.state.count}</div>
         <div className="button-group">
-          <button onClick={this.increment}>Increment (+)</button>
-          <button onClick={this.decrement}>Decrement (-)</button>
-          <button onClick={this.reset}>Reset</button>
+          <button onClick={this.increment}>Increment </button>
+          <button onClick={this.decrement}>Decrement </button>
+          {/* <button onClick={this.reset}>Reset</button> */}
         </div>
       </div>
     );
